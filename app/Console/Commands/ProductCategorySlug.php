@@ -36,6 +36,6 @@ class ProductCategorySlug extends Command
             $category = Category::find($code);
             $categoryCode = $category->slug;
             $this->info("The symbolic code of the product category is {$categoryCode}");
+        }
     }
-}
 } 
