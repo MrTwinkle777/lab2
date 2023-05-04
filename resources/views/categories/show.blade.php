@@ -40,7 +40,5 @@
             <h2>No Product Found.!</h2>
         @endif
     </div>
-
-    
 </body>
 </html>
