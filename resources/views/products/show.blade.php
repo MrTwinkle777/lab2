@@ -6,7 +6,6 @@
     <title>{{ strtoupper($product->name) }}</title>
 </head>
 <body>
-
     <div class="container">
         <h2>Product</h2>
         <ul>
@@ -19,8 +18,6 @@
             <li>Image: &lt;img src='{{ $product->image }}' alt='Not found' &gt;</li>
             <li>Count: {{ $product->count }}</li>
         </ul>
-    </div>
-
-    
+    </div> 
 </body>
 </html>
