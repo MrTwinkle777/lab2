@@ -10,7 +10,7 @@
     <div class="container">
         <h1>{{ $category->name }}</h1>
         <h3>Products</h3>
-        <form action="{{route('category.show', $category->slug)  }}" method="POST">
+        <form action="{{route('category.show', $category->slug)  }}" method="GET">
             @csrf
             Price:
             <input type="text" name="minPrice" style="width:60px"value="{{ $filterMinPrice ?? $minPrice }}">
